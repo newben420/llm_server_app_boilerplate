@@ -1,0 +1,27 @@
+{
+    "CHANGE_LANG": "Choose Preferred Language",
+    "LANG": "{{lang}}",
+    "RATE": "Rate {{brand}}",
+    "SHARE": "Share",
+    "SHARE_DESC": "Blah blah blah {{url}}.",
+    "DEV": "Powered by {{dev}}",
+    "MENU": {
+        "APP": "Theme & Language",
+        "SETTINGS": "Settings"
+    },
+    "THEME": {
+        "light": "Light",
+        "dark": "Dark"
+    },
+    "API": {
+        "DEFAULT_ERROR": "Could not establish a successful connection with the server.",
+        "WRONG_REQUEST": "There is something wrong with your request.",
+        "SERVER_ERROR": "A server error was encountered. Please try again later.",
+        "SUCCESS": "Operation successful!",
+        "ACCESS_DENIED": "Access denied.",
+        "UNKNOWN_RESPONSE": "An unknown response was received from the server.",
+        "SERVER_STATUS": "Server responded with a status of {{status}}.",
+        "AI_TIMEOUT": "Your request has timed out. Please try again later.",
+        "GROQ_ERROR": "AI Error \"{{reason}}\""
+    }
+}
