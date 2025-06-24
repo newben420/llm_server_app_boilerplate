@@ -38,7 +38,7 @@ apiRouter.post("/register", async (req, res) => {
 apiRouter.use(async (req, res, next) => {
     const token = ((req.headers.authorization || "").split(" ")[1] || "");
     const verified = await JWTHelper.verifyJWT(token);
-    if (!verified) {
+    if (verified) {
         next();
     }
     else {
